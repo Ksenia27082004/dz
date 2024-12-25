@@ -24,7 +24,7 @@ def home():
     # Рендерим HTML-страницу
     return render_template_string(html_content)
 
-if name == '__main__':
+if __name__ == '__main__':
     # Указываем хост и порт
     port = int(os.environ.get('PORT', 5000))  # Используем порт из переменной окружения или 5000 по умолчанию
     app.run(host='0.0.0.0', port=port, debug=True)
