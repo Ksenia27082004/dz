@@ -16,7 +16,7 @@ html_content = """
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f0f8ff;
-            background-image: url('https://avatars.mds.yandex.net/i?id=830df95644c8657f44420e525ef1bc83-5664298-images-thumbs&n=13');
+            background-image: url('https://avatars.mds.yandex.net/i?id=8940dbdff44af45dedb4331cae58846da331a3f0-8187583-images-thumbs&n=13');
             background-size: cover;
             background-repeat: no-repeat;
             color: #333;
@@ -40,12 +40,12 @@ html_content = """
     </style>
 </head>
 <body>
-    <h1>Привет, мир!</h1>
-    <p>Это моя первая HTML-страница, но теперь она стала новогодней!</p>
-    <img src="https://source.unsplash.com/400x300/?christmas-tree" alt="Елка">
+    <h1>Добро пожаловать!</h1>
+    <p>До нНовогода года осталось: 4 дня!</p>
+    <img src="https://avatars.mds.yandex.net/i?id=ae398961a8d5ca648040e8067d4b41b88012ad7a-9148772-images-thumbs&n=13" alt="Елка">
     <p>Нажмите на кнопку, чтобы узнать про подарки!</p>
     <button onclick="alert('С Новым годом! Желаем счастья и здоровья!')">Про подарки</button>
-    <button onclick="alert('2024 год будет успешным!')">Узнать про 2024</button>
+    <button onclick="alert('2025 год будет успешным!')">Узнать про 2025</button>
 </body>
 </html>
 """
